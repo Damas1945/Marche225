@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marché225 - Achetez et vendez</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #087b45;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    .search {
+      padding: 15px;
+      text-align: center;
+    }
+    input {
+      width: 85%;
+      padding: 14px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .welcome {
+      background: white;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .products {
+      padding: 15px;
+    }
+    .product {
+      background: white;
+      padding: 18px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+    }
+    .product h3 { color: #087b45; }
+    button {
+      background: #087b45;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 7px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marché225 🇨🇮</h1>
+    <p>Le marché numérique de la Côte d'Ivoire</p>
+  </header>
+
+  <div class="search">
+    <input type="text" placeholder="Rechercher un produit...">
+  </div>
+
+  <div class="welcome">
+    <h2>Bienvenue sur Marché225 !</h2>
+    <p>Achetez et vendez facilement partout en Côte d'Ivoire.</p>
+    <button>Découvrir les produits</button>
+  </div>
+
+  <div class="products">
+    <h2>Nos produits</h2>
+    <div class="product">
+      <h3>Téléphones</h3>
+      <p>Découvrez nos offres de téléphones.</p>
+    </div>
+    <div class="product">
+      <h3>Vêtements</h3>
+      <p>Retrouvez les dernières tendances.</p>
+    </div>
+    <div class="product">
+      <h3>Électronique</h3>
+      <p>Vos équipements au meilleur prix.</p>
+    </div>
+  </div>
+</body>
+</html>
